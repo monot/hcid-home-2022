@@ -13,7 +13,7 @@ hero:
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: false
-  background_image: "/assets/images/home/unsplash-P1qyEf1g0HU.jpeg"
+  background_image: "/assets/images/home/ibk.jpg"
   background_image_blend_mode: false # "overlay", "multiple", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: false
@@ -22,15 +22,15 @@ hero:
     enabled: true
     list:
       - text: "Research"
-        url: "https://www.zerostatic.io/theme/jekyll-advance/"
-        external: true
+        url: ""
+        external: false
         fa_icon: false
         size: small # "small", "normal", "large"
         outline: true
         style: "light" # "light", "dark", "primary"
       - text: "People"
-        url: "https://www.zerostatic.io/docs/jekyll-advance/v2.0/"
-        external: true
+        url: ""
+        external: false
         fa_icon: false
         size: small
         outline: true
