@@ -18,6 +18,9 @@ main:
   - name: Projects
     url: /projects/
     weight: 4
+  - name: Publication
+    url: /projects/
+    weight: 4
   - name: News
     url: /blog/
     weight: 5
