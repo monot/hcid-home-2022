@@ -2,9 +2,12 @@ main:
   - name: Home
     url: /
     weight: 1
-  - name: Services
+  - name: People
+    url: /team/
+    weight: 2
+  - name: Research
     url: /services/
-    weight: 1
+    weight: 3
     child:
       - name: "Web Development"
         url: /services/web-development/
@@ -14,16 +17,10 @@ main:
         url: /services/branding/
   - name: Projects
     url: /projects/
-    weight: 2
-  - name: Blog
-    url: /blog/
     weight: 4
-  - name: About
-    url: /about/
+  - name: News
+    url: /blog/
     weight: 5
-  - name: Buy Now
-    url: https://www.zerostatic.io/theme/jekyll-advance/
-    weight: 6
 footer_primary:
   - name: Home
     url: /
