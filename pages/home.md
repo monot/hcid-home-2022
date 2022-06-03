@@ -1,15 +1,15 @@
 ---
 layout: home
 permalink: "/"
-title: "Jekyll Advance"
-description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
+title: "hci+d lab. | Seoul National University"
+description: "Human-Computer Interaction+Design Lab. of Seoul National University"
 header_transparent: true
 meta_title: Jekyll Advance - Premium Jekyll Theme
 
 hero:
   enabled: true
-  heading: "Jekyll Advance"
-  sub_heading: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
+  heading: "Human-Computer Interaction+Design Lab."
+  sub_heading: "conducts research on Human-Computer Interaction, Human-AI Interaction, Social Computing, Robot Journalism, Information Visualization and more."
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: false
@@ -17,28 +17,28 @@ hero:
   background_image_blend_mode: false # "overlay", "multiple", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: false
-  height: false # "700px"
+  height: 700px #false # "800px"
   buttons:
     enabled: true
     list:
-      - text: "Buy Now"
+      - text: "Research"
         url: "https://www.zerostatic.io/theme/jekyll-advance/"
         external: true
         fa_icon: false
-        size: large # "small", "normal", "large"
-        outline: false
-        style: "primary" # "light", "dark", "primary"
-      - text: "Documentation"
+        size: small # "small", "normal", "large"
+        outline: true
+        style: "light" # "light", "dark", "primary"
+      - text: "People"
         url: "https://www.zerostatic.io/docs/jekyll-advance/v2.0/"
         external: true
         fa_icon: false
-        size: large
+        size: small
         outline: true
         style: "light"
 
 services:
   enabled: true
-  heading: "Our Services"
+  heading: "Research"
   sub_heading: ""
   limit: 3
   sort: "weight" # 'date'
