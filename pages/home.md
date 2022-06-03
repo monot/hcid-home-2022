@@ -40,7 +40,7 @@ services:
   enabled: true
   heading: "Research"
   sub_heading: ""
-  limit: 3
+  limit: 6
   sort: "weight" # 'date'
   view_more_button_enabled: true
   view_more_button_text: "View All Services"
@@ -52,9 +52,9 @@ services:
 intro:
   enabled: true
   align: left
-  image: "https://source.unsplash.com/iQ15DTx-63k/640x360"
-  heading: "We Help Your Business Grow"
-  sub_heading: "Our expert team and suite of digital services will help transform your business and achieve results online, fast."
+  image: "/assets/images/home/lab_members.jpg"
+  heading: "<strong>hci+d lab.</strong>  Members"
+  sub_heading: "We are an interdisciplinary group whose members come from social science, computer science, art, design, music and more. Meet our members from following page."
   features:
     enabled: false
     list:
@@ -65,7 +65,7 @@ intro:
   buttons:
     enabled: true
     list:
-      - text: "Who We Are"
+      - text: "People"
         url: "/about"
         external: false
         fa_icon: "fas fa-chevron-right"
@@ -94,8 +94,8 @@ outro:
   enabled: true
   align: center
   image: false
-  heading: Get Started Today
-  sub_heading: "Save time and money using this premium Jekyll theme."
+  heading: Get in touch with us!
+  sub_heading: "If you are interested in working with us, contact us."
   features:
     enabled: false
     list:
@@ -111,7 +111,7 @@ outro:
 
 posts:
   enabled: true
-  heading: Latest Blog Posts
+  heading: hci+d lab. News
   limit: 3
   sort: "date"
   view_more_button_enabled: true

@@ -18,43 +18,47 @@ main:
   - name: Projects
     url: /projects/
     weight: 4
-  - name: Publication
+  - name: Publications
     url: /projects/
     weight: 5
   - name: News
     url: /blog/
     weight: 6
+    
 footer_primary:
   - name: Home
     url: /
     weight: 1
-  - name: Services
-    url: /services/
+  - name: People
+    url: /team/
     weight: 2
+  - name: News
+    url: /blog/
+    weight: 3
+  
+footer_secondary:
+  - name: Research
+    url: /services/
+    weight: 1
   - name: Projects
     url: /projects/
-    weight: 3
-  - name: Team
-    url: /team/
-    weight: 4
-footer_secondary:
-  - name: Blog
-    url: /blog/
-    weight: 1
-  - name: About
-    url: /about/
     weight: 2
-footer_tertiary:
-  - name: Contact
-    url: /contact/
-    weight: 1
-  - name: Buy Now
-    url: https://www.zerostatic.io/theme/jekyll-advance/
-    weight: 2
-bottom:
-  - name: Privacy Policy
-    url: /privacy-policy/
+  - name: Publications
+    url: /services/
     weight: 3
-  - name: Terms and Conditions
-    url: /terms-and-conditions/
-    weight: 4
+  
+# footer_tertiary:
+#   - name: Contact
+#     url: /contact/
+#     weight: 1
+#   - name: Buy Now
+#     url: https://www.zerostatic.io/theme/jekyll-advance/
+#     weight: 2
+
+# bottom:
+#   - name: Privacy Policy
+#     url: /privacy-policy/
+#     weight: 3
+#   - name: Terms and Conditions
+#     url: /terms-and-conditions/
+#     weight: 4
