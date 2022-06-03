@@ -1,5 +1,5 @@
 # Jekyll Config
-baseurl: ""
+baseurl: "/"
 permalink: pretty
 title: "Human-Computer Interaction+Design Lab."
 collections_dir: collections
